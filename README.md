@@ -5,8 +5,10 @@ It is summarized as follows: "This project is meant to make you code an ant farm
 
 It's the first project that is mandatorily done in pairs, thus it's architecture is separated in two: the parser and the algorithm itself.
 It's goal is to make a given number of ants go from the first to the last room through a set of subsidiary rooms and paths, in the smallest possible number of turns. A turn is when every ant moves forward by one room.
-Knowing that: All rooms except start and end, have a finite capacity of one ant by turn. Links, end and start have infinite capacity.
-Output is formatted as follows: Each line is one anthill update, each movement must start with character 'L'. Each ant is represented by its number of entrance in the anthill followed by the destination room.
+Knowing that:
+1. All rooms except start and end, have a finite capacity of one ant by turn.
+2. Links, end and start have infinite capacity.
+3. Output is formatted as follows: Each line is one anthill update, each movement must start with character 'L'. Each ant is represented by its number of entrance in the anthill followed by the destination room.
 
 ```output_f("L%d-%s\n", ant_number, destination_room_name);```
 
